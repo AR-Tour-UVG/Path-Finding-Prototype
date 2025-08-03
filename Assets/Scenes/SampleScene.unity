@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1236527883}
-  offset: {x: 0, y: 10, z: 0}
+  offset: {x: 0, y: 15, z: 0}
   smoothSpeed: 0.125
 --- !u!1 &338587009
 GameObject:
@@ -698,7 +698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0711379719f154daf32b400ed1d145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 1236527879}
+  controller: {fileID: 1236527884}
 --- !u!120 &801041518
 LineRenderer:
   serializedVersion: 2
@@ -1204,6 +1204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2025694718}
+  moveSpeed: 5
 --- !u!1 &1316582175
 GameObject:
   m_ObjectHideFlags: 0
